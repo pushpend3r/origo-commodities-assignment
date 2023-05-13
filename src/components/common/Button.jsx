@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Button = ({ flag = true, text, className = "" }) => {
   const bgColor = flag ? "bg-color-2" : "bg-color-1";
   const fontColor = flag ? "font-color-1" : "font-color-2";
