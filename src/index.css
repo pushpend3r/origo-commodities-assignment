@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+  --color-1: rgb(74, 24, 49);
+  --color-2: rgb(255, 215, 173);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-color-1 {
+    background-color: var(--color-1);
+  }
+
+  .font-color-1 {
+    color: var(--color-1);
+  }
+
+  .bg-color-2 {
+    background-color: var(--color-2);
+  }
+
+  .font-color-2 {
+    color: var(--color-2);
+  }
+}
